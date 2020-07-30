@@ -15,6 +15,7 @@
                 </span>
                 <span id="history-operator">
                 </span>
+                
                
             </div>
             <div id="output">
@@ -23,9 +24,9 @@
             </div>
         </div>
         <div id="keyboard">  
-            <button  onclick="getValue('clear')" class="operator" id="clear" >del
+            <button  onclick="getValue('clear')" class="operator" id="clear" >CE
             </button>
-            <button onclick="getValue('delete')" value="delete" class="operator" id="backspace">Clear</button>
+            <button onclick="getValue('delete')" value="delete" class="operator" id="backspace">DEL</button>
             <button onclick="getValue('%')" value="%" class="operator" id="%">%</button>
             <button onclick="getValue('/')" value="/" class="operator" id="/">&#247</button>
             <button onclick="getValue('7')" value="7" class="number" id="7">7</button>
@@ -42,6 +43,10 @@
             <button onclick="getValue('+')" value="+" class="operator" id="+">+</button>
             <button onclick="getValue('empty')" value="empty" class="number" id="empty"> </button>
             <button onclick="getValue('0')" value="0" class="number" id="0">0</button>
+            <button onclick="getValue('.')" id="dot" value="." class="operator">.</button>
+            <button onclick="getValue('=')" id="equal" value="=" class="operator">=</button>
+
+
         </div>
         </div>
     </div>
