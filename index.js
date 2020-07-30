@@ -35,5 +35,10 @@ function numbers(value){
     op=all[1];
     secondpart=parseFloat(all[2]);
     
+    var screen=document.getElementById("history-value");
+
+    if (secondpart==0){
+      second.value="division by zero!"
+    }
   }
 }
