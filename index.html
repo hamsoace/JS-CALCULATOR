@@ -18,14 +18,14 @@
                
             </div>
             <div id="output">
-                <p id="output-value">
-                </p>
+                <input type="text" name="output-value" value="0"  id="output-value" placeholder="0" disabled="true">
+                
             </div>
         </div>
         <div id="keyboard">  
             <button  onclick="getNumber('clear')" class="operator" id="clear" >CE
             </button>
-            <button onclick="getNumber('delete')" value="delete" class="operator" id="backspace">DEL</button>
+            <button onclick="getNumber('delete')" value="del" class="operator" id="backspace">DEL</button>
             <button onclick="getNumber('%')" value="%" class="operator" id="%">%</button>
             <button onclick="getNumber('/')" value="/" class="operator" id="/">&#247</button>
             <button onclick="getNumber('7')" value="7" class="number" id="7">7</button>
@@ -40,7 +40,7 @@
             <button onclick="getNumber('2')" value="2" class="number" id="2">2</button>
             <button onclick="getNumber('3')" value="3" class="number" id="3">3</button>
             <button onclick="getNumber('+')" value="+" class="operator" id="+">+</button>
-            <button onclick="getEmpty('empty')" value="empty" class="number" id="empty"> </button>
+            <!--<button onclick="getEmpty('empty')" value="empty" class="number" id="empty"> </button>-->
             <button onclick="getNumber('0')" value="0" class="number" id="0">0</button>
             <button onclick="getNumber('.')" id="dot" value="." class="operator">.</button>
             <button onclick="getNumber('=')" id="equal" value="=" class="operator">=</button>

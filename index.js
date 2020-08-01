@@ -2,16 +2,16 @@
 //   numbers: [], 
 //   operator: ''
 // }
-function getNumber(value){
-    var display = document.getElementById("output");
 
+function getNumber(){
+   var display=document.getElementById("output-value")//.innerHTML=document.getElementById("keyboard");
   if(value=="="){
-    var all-display.value.split(" ")
+    //var all.display.value.split(" ")
     firstSet=parseFloat(all[0]);
     op=all[1];
     secondSet=parseFloat(all[2]);
 
-    var display=document.getElementById("result")
+    var display=document.getElementById("output-value").innerHTML=value
 
     if (secondSet=0){
       display.value="divison by zero!"
@@ -66,34 +66,36 @@ function getNumber(value){
     {
         return;
     }
+
+    function del(del){
+      var display=document.getElementById("output-value");
+      display.value='';
+      op=0;
+      del=0;
+      var firstSet = "0";
+      var secondSet = "0";
+      var dot= 0;
+    
+    }
+    
+    function dot(dt){
+      if(dot==0){
+        var display=document.getElementById("output-value");
+        display.value+=dt;
+        dot ="recorded"
+      }
+      else{
+        return;
+      }
+    }
+    
+    var all=display.value.split(" ");
+        firstSet=parseFloat(all[0]);
+        op=all[1];
+        secondSet=parseFloat(all[2]);
 }
 
-function delete(del){
-  var display=document.getElementById("output");
-  display.value='';
-  op=0;
-  del=0;
-  var firstSet = "0";
-  var secondSet = "0";
-  var dot= 0;
 
-}
-
-function dot(dt){
-  if(dot==0){
-    var display=document.getElementById("output");
-    display.value+=dt;
-    dot ="recorded"
-  }
-  else{
-    return;
-  }
-}
-
-var all=display.value.split(" ");
-    firstSet=parseFloat(all[0]);
-    op=all[1];
-    secondSet=parseFloat(all[2]);
 
 
 
