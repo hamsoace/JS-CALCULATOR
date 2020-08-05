@@ -73,24 +73,24 @@ body{
 
 button:nth-child(4){
     font-size:20px;
-    background-color:#9477af;
+    background-color:#969192;
 }
 
 button:nth-child(8){
     font-size:20px;
-    background-color:#ee4bbd;
+    background-color:#969192;
 }
 button:nth-child(12){
     font-size:20px;
-    background-color:#57f369;
+    background-color:#969192;
 }
 button:nth-child(16){
     font-size:20px;
-    background-color:#f1e429;
+    background-color:#969192;
 }
 button:nth-child(18){
     font-size:20px;
-    background-color:#4ccff3;
+    background-color:#969192;
 }
 /* button:nth-child(19){
     font-size:20px;
@@ -99,5 +99,5 @@ button:nth-child(18){
 
 button:nth-child(20){
     font-size:20px;
-    background-color:#f13e56;
+    background-color:#969192;
 }
