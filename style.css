@@ -2,9 +2,15 @@ body{
     font-family:'open sans', sans-serif;
 }
 
+h1{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
 #container{
     widows: 1000px;
-    height:550px;
+    height:650px;
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('image/img.jpg');
     margin:20px auto;
     background-repeat: no-repeat;
@@ -73,24 +79,24 @@ body{
 
 button:nth-child(4){
     font-size:20px;
-    background-color:#969192;
+    background-color:#eaedef;
 }
 
 button:nth-child(8){
     font-size:20px;
-    background-color:#969192;
+    background-color:#eaedef;
 }
 button:nth-child(12){
     font-size:20px;
-    background-color:#969192;
+    background-color:#eaedef;
 }
 button:nth-child(16){
     font-size:20px;
-    background-color:#969192;
+    background-color:#eaedef;
 }
 button:nth-child(18){
     font-size:20px;
-    background-color:#969192;
+    background-color:#eaedef;
 }
 /* button:nth-child(19){
     font-size:20px;
@@ -99,5 +105,5 @@ button:nth-child(18){
 
 button:nth-child(20){
     font-size:20px;
-    background-color:#969192;
+    background-color:#eaedef;
 }
